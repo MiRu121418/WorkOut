@@ -1,0 +1,13 @@
+[user]
+	name = Dea Ba Gi O W N E R
+	email = miru121418@gmail.com
+[core]
+	editor = Vim
+	longpaths = true
+[init]
+	defaultBranch = ""
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
